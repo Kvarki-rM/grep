@@ -4,11 +4,9 @@
     <list default="true" id="e2b63de9-f75d-4383-a23d-3621ccd71614" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Input/Example.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Input/Example.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/task2/Searcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task2/Searcher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/task2/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/task2/Tester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/task2/Searcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/task2/Searcher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/task2/Tester.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,12 +27,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/task2/Searcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+            <state relative-caret-position="1689">
+              <caret line="122" column="44" lean-forward="true" selection-start-line="122" selection-start-column="44" selection-end-line="122" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#285#286#0" expanded="true" />
-                <element signature="e#361#362#0" expanded="true" />
+                <element signature="e#483#484#0" expanded="true" />
+                <element signature="e#518#519#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -43,8 +41,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Input/Example.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="147" column="120" lean-forward="true" selection-start-line="147" selection-start-column="120" selection-end-line="147" selection-end-column="120" />
+            <state relative-caret-position="1921">
+              <caret line="161" column="4" lean-forward="true" selection-start-line="160" selection-start-column="4" selection-end-line="161" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -52,8 +50,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/task2/Tester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="4502" lean-forward="true" selection-start-line="14" selection-start-column="4502" selection-end-line="14" selection-end-column="4502" />
+            <state relative-caret-position="1292">
+              <caret line="76" column="54" selection-start-line="76" selection-start-column="54" selection-end-line="76" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,6 +71,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>и</find>
+      <find>Старик рыбачил один</find>
       <find>по</find>
     </findStrings>
   </component>
@@ -87,8 +86,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/SearcherH.java" />
         <option value="$PROJECT_DIR$/src/main/java/task2/SearcherH.java" />
-        <option value="$PROJECT_DIR$/Input/Example.txt" />
         <option value="$PROJECT_DIR$/src/main/java/task2/Searcher.java" />
+        <option value="$PROJECT_DIR$/Input/Example.txt" />
         <option value="$PROJECT_DIR$/src/test/java/task2/Tester.java" />
       </list>
     </option>
@@ -135,37 +134,6 @@
             <path>
               <item name="grep" type="b2602c69:ProjectViewProjectNode" />
               <item name="Console" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="grep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Console" type="462c0819:PsiDirectoryNode" />
-              <item name="Input" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="grep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Console" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="grep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Console" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="grep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Console" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="grep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Console" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="task2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -255,38 +223,45 @@
       <option name="project" value="LOCAL" />
       <updated>1558277604565</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1 ver">
+      <created>1558294107998</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1558294107998</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainTest - 2019.05.19 at 21h 27m 19s.xml">
+    <history-entry file="MainTest - 2019.05.20 at 11h 46m 21s.xml">
       <configuration name="MainTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest - 2019.05.19 at 22h 04m 38s.xml">
+    <history-entry file="MainTest - 2019.05.20 at 11h 47m 41s.xml">
       <configuration name="MainTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest - 2019.05.19 at 22h 05m 41s.xml">
+    <history-entry file="MainTest - 2019.05.20 at 11h 48m 44s.xml">
       <configuration name="MainTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest - 2019.05.19 at 22h 10m 53s.xml">
+    <history-entry file="MainTest - 2019.05.20 at 11h 49m 02s.xml">
       <configuration name="MainTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest - 2019.05.19 at 22h 21m 58s.xml">
+    <history-entry file="MainTest - 2019.05.20 at 11h 49m 20s.xml">
       <configuration name="MainTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest - 2019.05.19 at 22h 22m 15s.xml">
+    <history-entry file="MainTest - 2019.05.20 at 11h 54m 39s.xml">
       <configuration name="MainTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest - 2019.05.19 at 22h 23m 18s.xml">
+    <history-entry file="MainTest - 2019.05.20 at 11h 55m 13s.xml">
       <configuration name="MainTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest - 2019.05.19 at 22h 23m 48s.xml">
+    <history-entry file="MainTest - 2019.05.20 at 11h 56m 53s.xml">
       <configuration name="MainTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest - 2019.05.19 at 22h 25m 01s.xml">
+    <history-entry file="MainTest - 2019.05.20 at 11h 58m 02s.xml">
       <configuration name="MainTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest - 2019.05.19 at 22h 25m 25s.xml">
+    <history-entry file="MainTest - 2019.05.20 at 11h 58m 29s.xml">
       <configuration name="MainTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -303,7 +278,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49919224" visible="true" weight="0.2228145" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49919224" visible="true" weight="0.22921109" />
       <window_info id="Structure" order="1" sideWeight="0.50080776" side_tool="true" weight="0.21588486" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -312,7 +287,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50080776" side_tool="true" weight="0.21588486" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34422657" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39324617" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.48910674" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -340,13 +315,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/io/BufferedReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
@@ -372,39 +340,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task2/SearcherH.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/task2/SearcherH.java" />
+    <entry file="file://$MAVEN_REPOSITORY$/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.5.0-M1/junit-jupiter-api-5.5.0-M1.pom">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="8" column="60" lean-forward="true" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/task2/Searcher.java">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="297">
+          <caret line="86" column="6" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Input/Example.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="147" column="120" lean-forward="true" selection-start-line="147" selection-start-column="120" selection-end-line="147" selection-end-column="120" />
+        <state relative-caret-position="1921">
+          <caret line="161" column="4" lean-forward="true" selection-start-line="160" selection-start-column="4" selection-end-line="161" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/task2/Searcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1689">
+          <caret line="122" column="44" lean-forward="true" selection-start-line="122" selection-start-column="44" selection-end-line="122" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/task2/Tester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="4502" lean-forward="true" selection-start-line="14" selection-start-column="4502" selection-end-line="14" selection-end-column="4502" />
+        <state relative-caret-position="1292">
+          <caret line="76" column="54" selection-start-line="76" selection-start-column="54" selection-end-line="76" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

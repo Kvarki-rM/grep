@@ -8,16 +8,14 @@ import java.util.*;
 class Searcher {
 
     public static void main(String[] args) {
-        System.out.println(lookFor("grep [-i] по Example.txt"));
+        Scanner in = new Scanner(System.in);
+        String command = in.nextLine();
+        in.close();
+        System.out.println(lookFor(lookFor(command)));
     }
 
     String input(String val) {
-        if (val == null) {
-            Scanner in = new Scanner(System.in);
-            String command = in.nextLine();
-            in.close();
-            return lookFor(command);
-        } else return lookFor(val);
+        return lookFor(val);
     }
 
     private static String lookFor(String input) {
@@ -117,11 +115,15 @@ class Searcher {
             while (line2 != null) {
                 if (!invert) {
                     if (list.get(num)) {
-                        end.append(line2);
+                        if (end.length() == 0)
+                            end.append(line2.trim());
+                        else end.append("\n").append(line2.trim());
 
                     }
                 } else if (!list.get(num)) {
-                    end.append(line2);
+                    if (end.length() == 0)
+                        end.append(line2.trim());
+                    else end.append("\n").append(line2.trim());
                 }
                 line2 = reader2.readLine();
                 num++;
