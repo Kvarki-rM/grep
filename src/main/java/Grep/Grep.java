@@ -52,7 +52,6 @@ class Grep {
             boolean check = false;
 
             while (line != null) {
-
                 String[] word = line.split(" ");
                 for (String s : word) {
                     if (!regex) {
@@ -67,11 +66,8 @@ class Grep {
                         }
                     } else {
                         Pattern r;
-                        if (ignore) {
-                            r = Pattern.compile(search, Pattern.CASE_INSENSITIVE);
-                        } else {
-                            r = Pattern.compile(search);
-                        }
+                        if (ignore) r = Pattern.compile(search, Pattern.CASE_INSENSITIVE);
+                        else r = Pattern.compile(search);
                         Matcher m = r.matcher(line);
 
                         if (m.find()) {
@@ -81,13 +77,13 @@ class Grep {
 
                     }
                 }
-                if (invert && !check) {
+                if (invert && !check)
                     //  System.out.println(line);
                     end.append(line).append("\n");
-                } else if (check) {
+                else if (check)
                     // System.out.println(line);
                     end.append(line).append("\n");
-                }
+
                 check = false;
                 line = reader.readLine();
             }
