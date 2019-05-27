@@ -52,6 +52,7 @@ class MainTest {
         Grep First = new Grep();
         Grep Second = new Grep();
         Grep Third = new Grep();
+
         assertEquals(test1, First.reader(new String[]{"Grep", "-i", "я", inputFile}));
         assertEquals(test2, Second.reader(new String[]{"Grep", "-i", "поД", inputFile}));
         assertEquals(test3, Third.reader(new String[]{"Grep", "-i", "-r", "хи", inputFile}));
