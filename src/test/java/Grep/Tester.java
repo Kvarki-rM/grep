@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.Objects;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
@@ -13,13 +14,8 @@ class MainTest {
     @Test
     void mainTest() throws IOException {
 
-        String inputFile = getClass().getClassLoader().getResource("Example.txt").getFile();
+        String inputFile = Objects.requireNonNull(getClass().getClassLoader().getResource("Example.txt")).getFile();
 
-        //   String str = "Крещение Руси произошло в 988 году! Не так ли?";
-        //   String pattern = "(\\d)";
-        //   Pattern r = Pattern.compile(pattern);
-        //   Matcher m = r.matcher(str);
-        //   System.out.println(m.find());
         String test1 = "— теперь я опять могу пойти с тобой в море. Мы уже заработали немного денег. Старик научил мальчика рыбачить, и\n" +
                 "— Помню, — сказал старик. — Я знаю, ты ушел от меня не потому, что не верил.\n" +
                 "— Меня заставил отец, а я еще мальчик и должен слушаться.\n" +
@@ -56,6 +52,6 @@ class MainTest {
         assertEquals(test1, First.reader(new String[]{"Grep", "-i", "я", inputFile}));
         assertEquals(test2, Second.reader(new String[]{"Grep", "-i", "поД", inputFile}));
         assertEquals(test3, Third.reader(new String[]{"Grep", "-i", "-r", "хи", inputFile}));
-        assertThrows(FileNotFoundException.class, () -> First.main(new String[]{"Grep", "-v", "zzzz", "Input/zzz.txt"}));
+        assertThrows(FileNotFoundException.class, () -> Grep.main(new String[]{"Grep", "-v", "zzzz", "Input/zzz.txt"}));
     }
 }

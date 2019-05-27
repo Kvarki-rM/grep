@@ -54,14 +54,14 @@ class Grep {
             while (line != null) {
 
                 String[] word = line.split(" ");
-                for (int i = 0; i < word.length; i++) {
+                for (String s : word) {
                     if (!regex) {
                         if (ignore) {
-                            if (word[i].equalsIgnoreCase(search)) {
+                            if (s.equalsIgnoreCase(search)) {
                                 check = true;
                                 break;
                             }
-                        } else if (Objects.equals(word[i], search)) {
+                        } else if (Objects.equals(s, search)) {
                             check = true;
                             break;
                         }
