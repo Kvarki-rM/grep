@@ -16,7 +16,6 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 class Grep {
-
     @Option(name = "-r")
     private boolean regex;
 
@@ -74,16 +73,10 @@ class Grep {
                             check = true;
                             break;
                         }
-
                     }
                 }
-                if (invert && !check)
-                    //  System.out.println(line);
-                    end.append(line).append("\n");
-                else if (check)
-                    // System.out.println(line);
-                    end.append(line).append("\n");
-
+                if (invert && !check) end.append(line).append("\n");
+                else if (check) end.append(line).append("\n");
                 check = false;
                 line = reader.readLine();
             }
